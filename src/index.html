@@ -1,42 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Parcel Sandbox</title>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
 
-  <body>
-    <div id="app">
-      <div class="block"></div>
-      <div class="content">
-        <div class="inputWrapper">
-          <input
-            class="style-input"
-            type="text"
-            placeholder="Введите название задачи"
-            size="100"
-          />
+<head>
+  <title>Parcel Sandbox</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-          <button class="style-button">Найти</button>
-        </div>
-        <div class="countersText">
-          <p class="totalTasks" style="color: rgb(69, 162, 250);">
-            Всего задач 0
-          </p>
-          <p class="doneTask" style="color: rgb(147, 99, 225);">Выполнено 0</p>
-        </div>
-        <div class="line"></div>
-        <div class="emptyTasks">
-          <div class="logo"></div>
-          <div class="lstext">
-            <p style="color: rgb(189, 186, 186);"></p>
-          </div>
-        </div>
+<body>
+  <div id="app">
+    <div class="block"></div>
+    <div class="content">
+      <div class="inputWrapper">
+        <input class="style-input" type="text" placeholder="Введите название задачи" size="100" />
 
-        <div class="tasks"></div>
+        <button class="style-button">Найти</button>
+        <button class="style-button">Потерять</button>
       </div>
+      <div class="countersText">
+        <p class="totalTasks" style="color: rgb(69, 162, 250);">
+          Всего задач 0
+        </p>
+        <p class="doneTask" style="color: rgb(147, 99, 225);">Выполнено 0</p>
+      </div>
+      <div class="line"></div>
+      <div class="emptyTasks">
+        <div class="logo"></div>
+        <div class="lstext">
+          <p style="color: rgb(189, 186, 186);"></p>
+        </div>
+      </div>
+
+      <div class="tasks"></div>
     </div>
-    <script src="script.js"></script>
-  </body>
+  </div>
+  <script src="script.js"></script>
+</body>
+
 </html>
