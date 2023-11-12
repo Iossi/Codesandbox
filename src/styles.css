@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#app {
+  font-family: sans-serif;
+  background-color: rgb(24, 23, 23);
+  height: 100vh;
+  width: 100vw;
+}
+.block {
+  width: 100%;
+  height: 200px;
+  background: #000000;
+}
+.content {
+  margin: auto;
+  max-width: 736px;
+}
+.inputWrapper {
+  display: flex;
+}
+.style-input {
+  height: 51px;
+  width: 100%;
+  background: rgb(44, 42, 42);
+  border-radius: 10px;
+  margin-top: -20px;
+  margin-right: 8px;
+  border-style: none;
+  padding: 15px;
+}
+
+.style-button {
+  margin-top: -20px;
+  width: 90px;
+  color: white;
+  border-radius: 10px;
+  background: rgb(53, 137, 216);
+  border-style: none;
+}
+.lefttext {
+  position: absolute;
+  top: 300px;
+  width: 100%;
+  color: #47c5ffec;
+  font-size: 15pt;
+}
+.righttext {
+  position: absolute;
+  top: 300px;
+  width: 100%;
+  left: 70%;
+  color: #47c5ffec;
+  font-size: 15pt;
+}
+.line {
+  width: 100%;
+  border-bottom: 1px solid rgb(63, 59, 59);
+  margin-top: 20px;
+}
+.countersText {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.lstext {
+  margin-left: 250px;
+  margin-right: auto;
+  margin-top: 24px;
+  color: rgba(255, 250, 250, 0.337);
+  width: 300px;
+}
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  height: 50px;
+  margin-top: 24px;
+}
+.tasks {
+  margin-left: auto;
+  margin-right: auto;
+  /* display: flex; */
+  color: rgba(255, 250, 250, 0.337);
+  /* background-color: #262626;
+  width: 736px;
+  height: 72px;
+  border: 2px solid #333333;
+  border-radius: 8px; */
+}
+
+.task {
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(255, 250, 250, 0.337);
+  background-color: #262626;
+  width: 100%;
+  height: 72px;
+  border: 2px solid #333333;
+  border-radius: 8px;
+}
+
+.taskText {
+  max-width: 100%;
+  margin-left: 10px;
+  /* margin-right: auto;
+  
+  /* margin-top: 4%; */
+}
+.check {
+  /* width: 17.45px;
+  height: 17.45px; */
+  margin-left: 10px;
+}
+.trash {
+  /* width: 12.48px;
+  height: 14px; */
+  /* margin-top: auto; */
+  margin-right: 10px;
+}
+.textDecoration {
+  text-decoration: line-through;
+}
