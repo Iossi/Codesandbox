@@ -1,5 +1,4 @@
 let tasks = [];
-
 function onAddTask() {
   const inputValue = document.querySelector(".style-input").value;
 
