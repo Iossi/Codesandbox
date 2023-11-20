@@ -1,4 +1,6 @@
 let tasks = [];
+const backend = fetch('https://jsonplaceholder.typicode.com/users');
+console.log(backend);
 function onAddTask() {
   const inputValue = document.querySelector(".style-input").value;
 
